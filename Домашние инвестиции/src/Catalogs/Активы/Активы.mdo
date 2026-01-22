@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8779e734-0e41-499a-90aa-b036a0da81b9">
+  <producedTypes>
+    <objectType typeId="343482db-2137-43b7-8afe-32d63749c226" valueTypeId="db6d126b-ba76-4b68-a009-0af1ae2c9fe8"/>
+    <refType typeId="ec928348-03a8-4709-abfd-b191b49b5041" valueTypeId="5ab29684-d3dd-41b3-8ea7-c9a2a5a7dec0"/>
+    <selectionType typeId="822c3794-5803-49fe-a54a-1eba38ec9def" valueTypeId="26d44943-10f9-49c6-a78f-e40e4f9ebc79"/>
+    <listType typeId="8157a0d6-54b4-46ce-b55d-8c5e0cf82863" valueTypeId="8e705740-9e19-48bf-b711-bd8b94f86362"/>
+    <managerType typeId="ffa86c94-4508-42a7-ae6b-cc12e0255f75" valueTypeId="fc468df9-0676-41c3-97c6-ab50e51483f0"/>
+  </producedTypes>
+  <name>Активы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Активы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Активы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Актив</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Активы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined/>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Активы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="03d0e59f-7248-430c-b0f1-fabbea636bf4">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4d0f1b1-8baa-40fb-a9f4-ede9d2a88587">
+    <name>ВидАктива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид актива</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыАктивов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35d1a37a-cccf-4fea-8b10-1d5f6d544f09">
+    <name>Тикер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тикер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f293f37-1f97-494c-90db-9f84f6e3cf4b">
+    <name>CFI</name>
+    <synonym>
+      <key>ru</key>
+      <value>CFI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8b6fbeff-78ee-42ad-9be7-04c1a9b06476">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

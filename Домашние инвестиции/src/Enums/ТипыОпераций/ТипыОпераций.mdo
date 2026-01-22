@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b87cf209-30f7-46eb-822e-9bc875d4756a">
+  <producedTypes>
+    <refType typeId="85c5f9d9-4052-40d1-9ca1-ccec8429a20e" valueTypeId="f6ccbf51-bebc-4a57-a8e2-0e8ad672554a"/>
+    <listType typeId="d44b3797-ab82-45c0-af9c-5396a6af5806" valueTypeId="62566cc9-44f4-4b1c-b5bd-4e2957dec222"/>
+    <managerType typeId="0f1d9290-acfd-46d8-b6d0-c487a4a0dc7c" valueTypeId="df243da8-0b7c-448b-b6c2-b8f424fd8c8f"/>
+  </producedTypes>
+  <name>ТипыОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы операций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="334e8de3-d112-4f36-a270-48e6b678ae22">
+    <name>ОплатаКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата комиссии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04f31bcc-3b96-4355-b2f9-61932ce8dd9b">
+    <name>ПоступлениеДивидендов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление дивидендов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e36592c-d049-4fc9-b436-45c5a842111f">
+    <name>ПоступлениеКупонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление купонов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c2d713f-b510-44a2-ac1e-32494fad8303">
+    <name>ОплатаНалогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата налогов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

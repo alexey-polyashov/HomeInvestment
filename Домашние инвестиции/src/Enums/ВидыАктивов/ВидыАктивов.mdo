@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b5ec16e-790d-4e2d-aa14-9c91d49f844f">
+  <producedTypes>
+    <refType typeId="1a3338d9-bdf4-4722-be3f-8cfd93beff46" valueTypeId="7ba9cbaa-edb7-4cb1-a897-2421c73e041a"/>
+    <listType typeId="18340070-1b73-4780-89df-281212c7f906" valueTypeId="15288a09-df1f-49f7-9fd8-4fcc94e314cb"/>
+    <managerType typeId="5427ebd5-debf-403f-a32d-86029fc35bb7" valueTypeId="96994f67-1bf9-4852-b464-3e84c6c3e8c1"/>
+  </producedTypes>
+  <name>ВидыАктивов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды активов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd4a87f9-f46d-4988-b1bf-8e8ebc6e7ea8">
+    <name>Акция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c176d9a5-0645-4f3c-a308-a87d4042f70f">
+    <name>Облигация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облигация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5deb17c-6930-49da-8a14-bac388510c09">
+    <name>Фьючерс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фьючерс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="689ad4bf-d6b1-44b5-bff0-089cc0629d3c">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

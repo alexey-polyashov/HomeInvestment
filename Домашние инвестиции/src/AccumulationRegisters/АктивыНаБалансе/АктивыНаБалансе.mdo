@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b440619c-d5a3-4bfb-bb6d-2d567127304b">
+  <producedTypes>
+    <selectionType typeId="5203bee6-bcef-4b89-a24e-d7a4a9f9a921" valueTypeId="8781d984-fa14-4f1b-b1df-5f81144a76bb"/>
+    <listType typeId="f3fd2037-76be-4ca2-bb49-7736adce7433" valueTypeId="ae7596df-800b-47db-9835-bc7ca6bf7e1d"/>
+    <managerType typeId="89e466b9-4d63-4837-acda-80889e96c033" valueTypeId="4ab85fcf-8563-4791-a7a1-b2d31c3ac017"/>
+    <recordSetType typeId="58b05477-43fe-43b7-871e-41c9d8e75d86" valueTypeId="23490c97-2221-495d-aa99-6c0cc6db03da"/>
+    <recordKeyType typeId="ff0bdc99-ae12-4f7f-982b-81e39a2fdd0c" valueTypeId="a598f247-f219-466c-9f7b-f9d772e1cbee"/>
+    <recordType typeId="95e8705d-ac90-4190-ba70-be1735a82e7a" valueTypeId="07afec10-29cb-4416-8c14-1f0b0f76747f"/>
+  </producedTypes>
+  <name>АктивыНаБалансе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активы на балансе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="83e14c0c-bf3d-4ae0-9ad3-1d630b012bc5">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="9ee840f6-df80-4e5a-bdd1-f7171a828754">
+    <name>ВалютаЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3bc6f236-eda4-48ff-ad99-5e26a783c0dc">
+    <name>ЦенаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена покупки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="5b12c302-7446-43e7-887b-0a315179e14b">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ee202ae2-0318-4f53-995b-4df301c2e55e">
+    <name>Актив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актив</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Активы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

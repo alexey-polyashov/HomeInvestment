@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2210bbfb-9551-4af5-99e2-44cf6d131022">
+  <name>ДомашниеИнвестиции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Домашние инвестиции</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="321cdb93-c1d7-4a2a-a0dd-3b41b78f8cab"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="25c370c2-2234-46e7-8252-e786014cb33f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="272f925e-6623-457d-a13d-4d2d737cff3b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="af53ad59-0da5-4e01-838c-95b0bdb38a7a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="50db8f00-5f49-4905-be22-fc9af3e19e14"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0c035f6d-225b-49bb-9422-2d58aa2fb03d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3af1fa79-3826-4bed-8b77-055074363daf"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="37caece8-1ba4-461f-88df-9ca7d83742a1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Аналитика</subsystems>
+  <subsystems>Subsystem.Основное</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.КурсыВалют</commonModules>
+  <commonModules>CommonModule.ОбработкаОшибокКлиент</commonModules>
+  <commonModules>CommonModule.ОбработкаОшибокСерверВызовСервера</commonModules>
+  <constants>Constant.СтавкаНДФЛ</constants>
+  <catalogs>Catalog.Активы</catalogs>
+  <catalogs>Catalog.Брокеры</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Портфели</catalogs>
+  <documents>Document.Операция</documents>
+  <documents>Document.Сделка</documents>
+  <documentJournals>DocumentJournal.ВсеСделкиИОперации</documentJournals>
+  <enums>Enum.ВидыАктивов</enums>
+  <enums>Enum.ТипыОпераций</enums>
+  <enums>Enum.ТипыСделок</enums>
+  <reports>Report.БаланПортфеля</reports>
+  <informationRegisters>InformationRegister.ИсторияСтоимостиАктивов</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.АктивыНаБалансе</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДенежныйПоток</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Лоты</accumulationRegisters>
+</mdclass:Configuration>

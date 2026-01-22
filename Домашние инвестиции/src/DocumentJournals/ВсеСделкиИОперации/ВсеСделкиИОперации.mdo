@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="873ec09a-240a-4192-b2be-2eedad92dbd4">
+  <producedTypes>
+    <selectionType typeId="122a55e4-5ca8-4050-9325-3f11c4e7bce6" valueTypeId="5049d23d-cee4-4b4e-81ee-cb102b9db641"/>
+    <listType typeId="da0e1198-c6dc-44b0-9cf4-606ea4338117" valueTypeId="2c96f0e4-83f1-4e3e-9039-48f8c2bd176b"/>
+    <managerType typeId="6a000ee5-a147-4dc5-91ab-41e9058a6eca" valueTypeId="83352e0e-8524-4381-a6bb-20cbd162b55e"/>
+  </producedTypes>
+  <name>ВсеСделкиИОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все сделки и операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Операция</registeredDocuments>
+  <registeredDocuments>Document.Сделка</registeredDocuments>
+  <columns uuid="f130a16b-29f2-4d9e-9310-cd588f733e01">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <references>Document.Операция.Attribute.Портфель</references>
+    <references>Document.Сделка.Attribute.Портфель</references>
+  </columns>
+  <columns uuid="77b28f47-6817-4527-9ca0-fb7b49f519e0">
+    <name>Актив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актив</value>
+    </synonym>
+    <references>Document.Сделка.Attribute.Актив</references>
+    <references>Document.Операция.Attribute.Актив</references>
+  </columns>
+  <columns uuid="fd9c62b8-e416-4840-8edf-83afabf08e2c">
+    <name>ТипОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип операции</value>
+    </synonym>
+    <references>Document.Операция.Attribute.ТипОперации</references>
+    <references>Document.Сделка.Attribute.ТипСделки</references>
+  </columns>
+  <columns uuid="d7ff9c9e-d57e-44e8-90dd-4a475f2adc88">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <references>Document.Операция.Attribute.Валюта</references>
+    <references>Document.Сделка.Attribute.Валюта</references>
+  </columns>
+  <columns uuid="f18878e5-d9b5-4096-ae1b-a7feaa8016e5">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.Операция.Attribute.СуммаОперации</references>
+    <references>Document.Сделка.Attribute.СуммаСделки</references>
+  </columns>
+</mdclass:DocumentJournal>

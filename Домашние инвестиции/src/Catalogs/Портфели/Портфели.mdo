@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6709c99-b47c-4ee2-980e-766c3bcb9e74">
+  <producedTypes>
+    <objectType typeId="25dfcbab-7f24-4cd7-bb08-c13a5f66ae64" valueTypeId="34886531-8861-45b7-8cdd-6ec5374f838d"/>
+    <refType typeId="7b915b8b-15cc-4a84-ab7b-9849cff0bfe7" valueTypeId="8a874d0f-4f00-4f86-8940-1cdfe79e839b"/>
+    <selectionType typeId="c63b25f3-b2c3-48e6-8bee-d27f8006171a" valueTypeId="a25bc851-e9e0-4308-924d-d5bbe6f34bf1"/>
+    <listType typeId="059865d0-105c-4949-aa79-bbde8b4e07ef" valueTypeId="fa40c2f9-6994-4139-8034-0fea03d97f0c"/>
+    <managerType typeId="4b1fa7da-fce4-4f92-b43d-63a2e9843160" valueTypeId="e4096aa5-da93-4ea3-90ec-0248ed2748e5"/>
+  </producedTypes>
+  <name>Портфели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Портфели.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Портфели.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0d1799fe-1a9b-4a66-a517-718f29dc2ee3">
+    <name>Брокер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Брокеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66da8af8-e836-481c-8999-817cefc91b35">
+    <name>ОсновнаяВалютаПортфеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная валюта портфеля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

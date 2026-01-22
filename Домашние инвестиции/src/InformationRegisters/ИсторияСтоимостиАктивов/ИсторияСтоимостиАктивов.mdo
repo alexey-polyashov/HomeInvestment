@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1bab23f-2e67-48eb-8556-61601e25818e">
+  <producedTypes>
+    <selectionType typeId="e89c60b3-68d5-465e-9459-f3e8711ba75b" valueTypeId="c8ab8d8f-e0b9-4609-870a-b8899ea5e294"/>
+    <listType typeId="c448da35-8ac6-4e75-918a-73a8dc0e4c48" valueTypeId="514031ee-a025-44b7-9062-39b5bd150d8a"/>
+    <managerType typeId="a705617d-b188-49bb-adf8-20b0f4fa930d" valueTypeId="4d57ca12-a1ab-4061-8f69-e3c19ad8bee1"/>
+    <recordSetType typeId="a00f7ae9-1b35-45a7-bf51-afe8ff715ba0" valueTypeId="3f0d06db-a840-4d0d-8091-188d738401fd"/>
+    <recordKeyType typeId="24b65225-fc9c-4a3c-a307-440bfcb88d0a" valueTypeId="b40ed464-950c-45a8-8739-aaf09902cd96"/>
+    <recordType typeId="8168bbf3-c57e-49c2-8af0-d2598793f674" valueTypeId="a1708c7c-412e-47f4-b895-011c33c33ad2"/>
+    <recordManagerType typeId="556e7c95-ed93-4099-86e1-3cb76c1adb3f" valueTypeId="5ba62aee-9702-4720-a239-e31d7cc4d632"/>
+  </producedTypes>
+  <name>ИсторияСтоимостиАктивов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История стоимости активов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="fb98a802-2d5c-423d-b645-0bdefbb2b681">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b73259ed-1bf5-4de3-a7c2-9e510479df5f">
+    <name>Актив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актив</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Активы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e62d6849-153f-4970-9766-11cc2f3bea0b">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
