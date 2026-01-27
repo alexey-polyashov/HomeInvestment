@@ -56,7 +56,6 @@
   <enums>Enum.ВидыАктивов</enums>
   <enums>Enum.ТипыОпераций</enums>
   <enums>Enum.ТипыСделок</enums>
-  <enums>Enum.Перечисление</enums>
   <reports>Report.БаланПортфеля</reports>
   <informationRegisters>InformationRegister.ИсторияСтоимостиАктивов</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
