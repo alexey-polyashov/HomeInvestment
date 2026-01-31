@@ -42,6 +42,7 @@
   <subsystems>Subsystem.Аналитика</subsystems>
   <subsystems>Subsystem.Основное</subsystems>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
   <commonModules>CommonModule.КурсыВалют</commonModules>
   <commonModules>CommonModule.ОбработкаОшибокКлиент</commonModules>
   <commonModules>CommonModule.ОбработкаОшибокСерверВызовСервера</commonModules>
