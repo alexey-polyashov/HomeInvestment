@@ -41,12 +41,16 @@
   </languages>
   <subsystems>Subsystem.Аналитика</subsystems>
   <subsystems>Subsystem.Основное</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Пользователь</roles>
   <commonModules>CommonModule.КурсыВалют</commonModules>
-  <commonModules>CommonModule.ОбработкаОшибокКлиент</commonModules>
+  <commonModules>CommonModule.ОбработкаОшибокКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбработкаОшибокСерверВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <constants>Constant.СтавкаНДФЛ</constants>
+  <constants>Constant.МодульДляРаботыСВалютами</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Активы</catalogs>
   <catalogs>Catalog.Брокеры</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
@@ -58,6 +62,7 @@
   <enums>Enum.ТипыОпераций</enums>
   <enums>Enum.ТипыСделок</enums>
   <reports>Report.БаланПортфеля</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаКурсовВалют_ЦБРФ</dataProcessors>
   <informationRegisters>InformationRegister.ИсторияСтоимостиАктивов</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивыНаБалансе</accumulationRegisters>

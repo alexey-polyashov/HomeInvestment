@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07ba0a5c-e1ca-41d3-ac34-ac9c6ff4ec7e">
+  <producedTypes>
+    <objectType typeId="0ec546b0-1e57-4030-8189-4fb1d7f1b60c" valueTypeId="05326df6-f306-43dc-966c-49245c5add2a"/>
+    <managerType typeId="83006aca-bdcc-4eac-b59b-879c1ca76bb2" valueTypeId="ea3365df-c8da-4aff-b6c5-5bcc1393724a"/>
+  </producedTypes>
+  <name>ЗагрузкаКурсовВалют_ЦБРФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка курсов валют ЦБРФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
