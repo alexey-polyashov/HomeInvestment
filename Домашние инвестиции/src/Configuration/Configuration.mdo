@@ -48,6 +48,7 @@
   <commonModules>CommonModule.ОбработкаОшибокКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбработкаОшибокСерверВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеМодулиСервер</commonModules>
   <constants>Constant.СтавкаНДФЛ</constants>
   <constants>Constant.МодульДляРаботыСВалютами</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
