@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1059059-f4c4-4e56-8186-d582d12e7326">
+  <producedTypes>
+    <objectType typeId="b2a7189d-2592-43dc-aba2-e05e5d356fc3" valueTypeId="7651ba37-728e-4e9d-81a5-501f5fd438bf"/>
+    <refType typeId="21b5a0a5-00e1-4b7e-adbd-9b70621cc1b6" valueTypeId="2c70a5a0-71b7-4254-94ca-a49ca1785191"/>
+    <selectionType typeId="e6a1c4ad-37dd-4e32-bab8-1b07b203d326" valueTypeId="c9f5e4ff-1380-4418-a135-1f1fce94e8b5"/>
+    <listType typeId="eff2e03e-709c-42f9-8d6f-78838db4874f" valueTypeId="7dd67df8-a39d-4609-8933-eb7c5ccdeb89"/>
+    <managerType typeId="c8396cdc-4f97-434b-9313-b20dce177894" valueTypeId="66715f5c-02d8-487a-9110-c140d4d2b384"/>
+  </producedTypes>
+  <name>ТаймФреймы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тайм фреймы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТаймФреймы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТаймФреймы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="358dbf03-8f70-4f2e-98f1-6bc570930289">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8fef0cde-88f7-488e-af71-1554f48c83ef">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

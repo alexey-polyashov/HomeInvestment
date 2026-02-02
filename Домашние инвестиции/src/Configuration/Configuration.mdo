@@ -56,6 +56,7 @@
   <catalogs>Catalog.Брокеры</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Портфели</catalogs>
+  <catalogs>Catalog.ТаймФреймы</catalogs>
   <documents>Document.Операция</documents>
   <documents>Document.Сделка</documents>
   <documentJournals>DocumentJournal.ВсеСделкиИОперации</documentJournals>
@@ -64,6 +65,7 @@
   <enums>Enum.ТипыСделок</enums>
   <reports>Report.БаланПортфеля</reports>
   <dataProcessors>DataProcessor.ЗагрузкаКурсовВалют_ЦБРФ</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСАктивами_MOEX</dataProcessors>
   <informationRegisters>InformationRegister.ИсторияСтоимостиАктивов</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивыНаБалансе</accumulationRegisters>

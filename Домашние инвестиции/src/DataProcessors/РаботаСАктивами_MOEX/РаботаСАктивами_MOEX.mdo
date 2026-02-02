@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47867762-d2c0-4370-8e8c-7efc8173e50f">
+  <producedTypes>
+    <objectType typeId="5ed3a843-9585-4fa0-b7d1-fa84dc354a5a" valueTypeId="256dde6d-0f40-4bc0-ae25-a40de672da52"/>
+    <managerType typeId="8390c40a-cc3a-4c68-b055-78bd7189dd5d" valueTypeId="879d9208-cf96-429a-b427-2f2bef6988b4"/>
+  </producedTypes>
+  <name>РаботаСАктивами_MOEX</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с активами MOEX</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
