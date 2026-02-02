@@ -7,7 +7,7 @@
   <name>РаботаСАктивами_MOEX</name>
   <synonym>
     <key>ru</key>
-    <value>Работа с активами MOEX</value>
+    <value>Работа с активами - MOEX</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
 </mdclass:DataProcessor>

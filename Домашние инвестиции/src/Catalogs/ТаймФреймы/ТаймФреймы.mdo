@@ -28,6 +28,43 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="15ce9b24-a970-46fd-840f-1fa1f54b87a3">
+      <name>День</name>
+      <description>День</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="a5ab66c3-42a9-4e37-a71d-aa1bf3824ccc">
+      <name>Неделя</name>
+      <description>Неделя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6497fe37-8486-4892-a1bc-768947ba54b3">
+      <name>Час</name>
+      <description>Час</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="67df2dc6-4a51-4801-809d-2b3e9a5e6a45">
+      <name>Минут15</name>
+      <description>15 минут</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="250c459c-4189-4980-bf24-3197459c213a">
+      <name>Час6</name>
+      <description>6 часов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="358dbf03-8f70-4f2e-98f1-6bc570930289">
