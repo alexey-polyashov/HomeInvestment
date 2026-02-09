@@ -6,6 +6,10 @@
 	<object>
 		<name>Configuration.ДомашниеИнвестиции</name>
 		<right>
+			<name>EventLog</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ThinClient</name>
 			<value>true</value>
 		</right>

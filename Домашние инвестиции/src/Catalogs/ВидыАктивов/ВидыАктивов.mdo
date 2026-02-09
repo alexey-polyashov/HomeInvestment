@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e3c2a28-e3d0-43a1-9b46-05af9a228c11">
+  <producedTypes>
+    <objectType typeId="2d176302-f74d-4dd3-bd1b-4221a4077aa8" valueTypeId="21623b36-2d05-4728-a841-b34de89bc36b"/>
+    <refType typeId="64e70278-159a-4984-964a-cfb950ec3cd7" valueTypeId="3018c919-0d8b-43d9-9ad4-91871ebb7301"/>
+    <selectionType typeId="008c5882-0a49-4204-a261-6f5e7ad7620f" valueTypeId="3e1f3b0c-98e6-4299-a9d4-bfb1ec2df46c"/>
+    <listType typeId="7f74f672-985f-41bd-aca0-bb1f098f66bf" valueTypeId="5efd527b-5f93-4a01-8a00-61e1a712d8ff"/>
+    <managerType typeId="5a4e25ab-8e2e-4b15-ad2d-07a736c61cb5" valueTypeId="7936ab13-6d9b-4b36-a8cc-2dfea4db91ef"/>
+  </producedTypes>
+  <name>ВидыАктивов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды активов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыАктивов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыАктивов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="700f3cac-f354-4115-b4e1-09e5687ebd47">
+      <name>Акция</name>
+      <description>Акция</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="47f1c3f9-f355-43a7-b849-8c0c2cafacc6">
+      <name>Облигация</name>
+      <description>Облигация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="bb1816d9-c94e-4ae9-9051-924d375d88f5">
+      <name>Фьючерс</name>
+      <description>Фьючерс</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="ad2bb4c1-7fe1-4deb-b755-028e1385b435">
+      <name>Валюта</name>
+      <description>Валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="398a7e4e-8e8c-4007-96f4-1848576ec384">
+      <name>ETF</name>
+      <description>ETF</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0c48d2f0-2285-40b4-8569-e75981fd91b6">
+    <name>БлокMOEX</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блок MOEX</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee9f156b-df81-4579-a684-1a0213e17ca0">
+    <name>РынокMOEX</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рынок MOEX</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

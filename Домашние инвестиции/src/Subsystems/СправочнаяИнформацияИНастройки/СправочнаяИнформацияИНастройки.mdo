@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66db42d2-ee9c-404b-bcdb-913a8182c3df">
+  <name>СправочнаяИнформацияИНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочная информация и настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.НастройкиПриложения</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Брокеры</content>
+  <content>Catalog.ТаймФреймы</content>
+  <content>Catalog.Активы</content>
+  <content>Catalog.ВидыАктивов</content>
+</mdclass:Subsystem>

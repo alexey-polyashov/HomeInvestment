@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Активы</content>
+  <content>Catalog.ВидыАктивов</content>
   <parentSubsystem>Subsystem.Основное</parentSubsystem>
 </mdclass:Subsystem>

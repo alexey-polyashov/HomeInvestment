@@ -3,6 +3,6 @@
   <subsystemsOrder>
     <subsystems>Subsystem.Основное</subsystems>
     <subsystems>Subsystem.Аналитика</subsystems>
-    <subsystems>Subsystem.Настройки</subsystems>
+    <subsystems>Subsystem.СправочнаяИнформацияИНастройки</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

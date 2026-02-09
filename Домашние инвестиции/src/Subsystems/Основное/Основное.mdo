@@ -8,8 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Портфели</content>
-  <content>Catalog.Брокеры</content>
-  <content>Catalog.Валюты</content>
   <subsystems>Активы</subsystems>
   <subsystems>Операции</subsystems>
 </mdclass:Subsystem>

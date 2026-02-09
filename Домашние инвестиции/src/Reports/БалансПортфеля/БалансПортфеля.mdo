@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23c0c850-708a-4d13-8d74-45035b1fcc0b">
+  <producedTypes>
+    <objectType typeId="04915b7d-2c7d-4660-af09-9db37a7b4357" valueTypeId="0a2e8299-9bab-41a0-804f-08016e68bae8"/>
+    <managerType typeId="7aeb70f3-7ca0-4cb3-9b80-9066902d27d7" valueTypeId="2d55cfa7-1d52-4a8f-b19a-01a3d77adf13"/>
+  </producedTypes>
+  <name>БалансПортфеля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс портфеля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="c79785b9-9140-438b-b7e1-4707f84d383d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="ffc03301-be6f-4469-9489-46ec63c3d9dd">
+    <name>БалансПортфеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баланс портфеля</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>
