@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
-    <subsystems>Subsystem.Основное</subsystems>
-    <subsystems>Subsystem.Аналитика</subsystems>
-    <subsystems>Subsystem.СправочнаяИнформацияИНастройки</subsystems>
+    <subsystems>Subsystem.ДИ_Портфели</subsystems>
+    <subsystems>Subsystem.ДИ_Аналитика</subsystems>
+    <subsystems>Subsystem.ДИ_СправочнаяИнформацияИНастройки</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2206e279-2092-474e-99f9-afc22bff30e8">
-  <name>Активы</name>
+  <name>ДИ_Активы</name>
   <synonym>
     <key>ru</key>
     <value>Активы</value>
@@ -9,5 +9,4 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Активы</content>
   <content>Catalog.ВидыАктивов</content>
-  <parentSubsystem>Subsystem.Основное</parentSubsystem>
 </mdclass:Subsystem>

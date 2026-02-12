@@ -45,10 +45,12 @@
   </languages>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.ДомашниеИнвестиции</subsystems>
-  <subsystems>Subsystem.Основное</subsystems>
-  <subsystems>Subsystem.Аналитика</subsystems>
-  <subsystems>Subsystem.СправочнаяИнформацияИНастройки</subsystems>
+  <subsystems>Subsystem.ДИ_Портфели</subsystems>
+  <subsystems>Subsystem.ДИ_Активы</subsystems>
+  <subsystems>Subsystem.ДИ_Сделки</subsystems>
+  <subsystems>Subsystem.ДИ_Аналитика</subsystems>
+  <subsystems>Subsystem.ДИ_СоветникИИ</subsystems>
+  <subsystems>Subsystem.ДИ_СправочнаяИнформацияИНастройки</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
   <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</styleItems>
@@ -386,12 +388,12 @@
   <sessionParameters>SessionParameter.ТекущийВнешнийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
-  <roles>Role.Пользователь</roles>
-  <roles>Role.ПолныеПрава</roles>
   <roles>Role.БазовыеПраваБСП</roles>
   <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
   <roles>Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений</roles>
@@ -429,19 +431,19 @@
   <commonTemplates>CommonTemplate.ПустойМакетDOCX</commonTemplates>
   <commonTemplates>CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen</commonTemplates>
   <commonModules>CommonModule.КурсыВалют</commonModules>
+  <commonModules>CommonModule.ОбработкаОшибокСерверВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбработкаОшибокКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеМодулиСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
   <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
   <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсами</commonModules>
   <commonModules>CommonModule.ВнешниеПользователи</commonModules>
-  <commonModules>CommonModule.ОбработкаОшибокКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
-  <commonModules>CommonModule.ПодключаемыеМодулиСервер</commonModules>
   <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбработкаОшибокСерверВызовСервера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
   <commonModules>CommonModule.ДлительныеОперации</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииВызовСервера</commonModules>
@@ -664,14 +666,14 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <constants>Constant.МодульДляРаботыСАктивами</constants>
+  <constants>Constant.МодульДляРаботыСВалютами</constants>
   <constants>Constant.СтавкаНДФЛ</constants>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
-  <constants>Constant.МодульДляРаботыСАктивами</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
-  <constants>Constant.МодульДляРаботыСВалютами</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
@@ -761,12 +763,12 @@
   <commonForms>CommonForm.ФайлыВТоме</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
-  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Активы</catalogs>
   <catalogs>Catalog.Брокеры</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыАктивов</catalogs>
   <catalogs>Catalog.Портфели</catalogs>
   <catalogs>Catalog.ТаймФреймы</catalogs>
-  <catalogs>Catalog.Активы</catalogs>
-  <catalogs>Catalog.ВидыАктивов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
@@ -788,9 +790,9 @@
   <documents>Document.Сделка</documents>
   <documentJournals>DocumentJournal.ВсеСделкиИОперации</documentJournals>
   <enums>Enum.ТипыОпераций</enums>
+  <enums>Enum.ТипыСделок</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
-  <enums>Enum.ТипыСделок</enums>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВидыСвойств</enums>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
@@ -825,9 +827,9 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
-  <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаКурсовВалют_ЦБРФ</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСАктивами_MOEX_Free</dataProcessors>
+  <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаИОбъединениеЭлементов</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>

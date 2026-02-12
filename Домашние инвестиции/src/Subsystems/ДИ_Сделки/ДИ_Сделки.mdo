@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b65d581d-0ffc-4098-b76c-e5852fb6211b">
-  <name>Операции</name>
+  <name>ДИ_Сделки</name>
   <synonym>
     <key>ru</key>
-    <value>Операции</value>
+    <value>Сделки</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Сделка</content>
   <content>Document.Операция</content>
   <content>DocumentJournal.ВсеСделкиИОперации</content>
-  <parentSubsystem>Subsystem.Основное</parentSubsystem>
 </mdclass:Subsystem>
